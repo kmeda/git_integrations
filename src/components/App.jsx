@@ -211,8 +211,7 @@ render() {
   arr.forEach(each => {
     barData.push({x: Object.keys(each)[0], y: Object.values(each)[0]})
   })
-  console.log(barData);
-
+  
   return (
     <Wrapper>
       
