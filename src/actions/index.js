@@ -37,6 +37,7 @@ export const fetchResults = function() {
       }
     } catch (error) {
       console.log(error);
+      dispatch({type: 'IS_LOADING', flag: false});
     }
 
   }

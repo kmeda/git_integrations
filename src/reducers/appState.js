@@ -21,7 +21,7 @@ export const AppStateReducer = (state=template, action) => {
     case 'SET_REPOS':
       return {
         ...state,
-        repos: state.repos.concat(action.payload)
+        repos: _.uniqBy(state.repos.concat(action.payload), 'id')
       };
     
     case 'SORT_REPOS':
