@@ -1,10 +1,11 @@
 
 
-Install node_modules and run 'npm run serv' to run locally.
+Please install node_modules and run 'npm run serv' to run locally.
 
-Libraries used,
-
+#Libraries used,
 React
 Redux
 Styled Components
+
+
 
